@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    /*text-align: center; will apply to all information in the body. 
+    if card is part of a larger code, it will apply to all. so better put it in the card class*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto; /*0 is the vertical axis and auto is the horizontal axis*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+    background: #ddebf8;
+    border-bottom: 5px solid #d8cefe;
+}
+
+.selfie{
+    width: 150px;
+
+}
+/*
+
+.dotted{
+    border: 1px dotted blue;
+}
+*/
+/*
+.justify{
+    justify-content: space-around;
+}*/
